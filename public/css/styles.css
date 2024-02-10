@@ -1,0 +1,391 @@
+<style>
+
+
+
+.title{
+   color:white;
+ }
+
+
+
+.nav-link-items{
+  width:100%;
+  display:flex;
+  justify-content:center;
+
+}
+
+.item{
+  font-family: anton;
+  color: white;
+  font-size: 25px;
+  padding-left: 20px;
+  display:flex;
+  justify-content:center;
+
+
+}
+
+.login{
+  border-radius: 7px;
+  background-image: -webkit-linear-gradient(5deg,
+     #74e291 0%,
+     #73e094 5%,
+     #71dd96 10%,
+     #70db98 15%,
+     #6fd99b 20%,
+     #6dd69e 25%,
+     #6cd4a0 30%,
+     #6bd2a2 35%,
+     #69d0a5 40%,
+     #68cda8 45%,
+     #66cbaa 50%,
+     #65c9ac 55%,
+     #64c6af 60%,
+     #62c4b2 65%,
+     #61c2b4 70%,
+     #60c0b6 75%,
+     #5ebdb9 80%,
+     #5dbbbc 85%,
+     #5cb9be 90%,
+     #5ab6c0 95%,
+     #59b4c3 100%
+  );
+  display:flex;
+  justify-content: flex-end;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  width:100%;
+  position: absolute;
+}
+
+
+.title-name {
+       /* Set a background color to the title-name div */
+      padding-top: 200px;
+      color:white;
+      font-size: 4.6rem;
+      font-family: Kaushan Script;
+      font-style: bold;
+      text-align: center;
+      justify-content: center;
+
+      margin-top: 20px; /* Adjust the margin as needed */
+      /* Set a z-index to lift it above the container */
+    }
+
+
+ .centered-owl{
+   display: flex;
+   justify-content: center;
+
+ }
+
+ .description{
+
+   height:1000px;
+   width: 100%;
+   background-image: -webkit-linear-gradient(5deg,
+      #74e291 0%,
+      #73e094 5%,
+      #71dd96 10%,
+      #70db98 15%,
+      #6fd99b 20%,
+      #6dd69e 25%,
+      #6cd4a0 30%,
+      #6bd2a2 35%,
+      #69d0a5 40%,
+      #68cda8 45%,
+      #66cbaa 50%,
+      #65c9ac 55%,
+      #64c6af 60%,
+      #62c4b2 65%,
+      #61c2b4 70%,
+      #60c0b6 75%,
+      #5ebdb9 80%,
+      #5dbbbc 85%,
+      #5cb9be 90%,
+      #5ab6c0 95%,
+      #59b4c3 100%
+   );
+
+ }
+
+ .description-text{
+   font-family: Kaushan Script;
+   font-style: bold;
+   font-size: 10rem;
+   display: flex;
+
+   padding-right: 30px;
+   justify-content: flex-end;
+   align-items: flex-end;
+ }
+
+ .project-class{
+   display: flex;
+   color:#fff;
+   margin: 80px;
+
+ }
+
+ .project-class p{
+   color:white;
+   width:50%;
+   font-family: Kaushan Script;
+   font-style: bold;
+   display: flex;
+   padding-left: 100px;
+   font-size: 6rem;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .contactus{
+   height: 1000px;
+   width: 100%;
+   background-image: linear-gradient(90deg,
+     #666666 0%,
+     #595959 17%,
+     #4d4d4d 33%,
+     #404040 50%,
+     #333333 67%,
+     #262626 100%
+   );
+   font-size: 11rem;
+   color:white;
+   font-family: Merriweather;
+ }
+
+ .contactus p{
+   display: flex;
+   justify-content: center;
+ }
+.contact-information{
+  width:100%;
+  display: flex;
+}
+
+.navbar-image{
+  text-decoration: none;
+}
+
+
+.brand-name{
+  justify-content: flex-start;
+}
+
+ .icons{
+   padding: 30px;
+   justify-content: flex-end;
+   margin-left: auto;
+   color:white;
+ }
+
+ .details p{
+   font-size: 2rem;
+   color:white;
+   display: flex;
+   padding-left:460px;
+   justify-content: center;
+
+ }
+ .details a{
+   text-decoration: None;
+   color:white;
+ }
+
+ .copyrights{
+   font-size: 2rem;
+   color:white;
+   display: flex;
+   justify-content: center;
+   padding-left:0px;
+ }
+
+ .rounded-c{
+         width: 30px;
+         height: 30px;
+         border-radius: 50%;
+         border-color: white;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         color: #fff; /* Choose your text color */
+         font-size: 14px; /* Choose your font size */
+         font-weight: bold;
+      }
+
+.login-signup-box{
+
+  padding: 40px;
+  border-radius: 5px;
+}
+
+.successful{
+  background-image: -webkit-linear-gradient(5deg,
+     #74e291 0%,
+     #73e094 5%,
+     #71dd96 10%,
+     #70db98 15%,
+     #6fd99b 20%,
+     #6dd69e 25%,
+     #6cd4a0 30%,
+     #6bd2a2 35%,
+     #69d0a5 40%,
+     #68cda8 45%,
+     #66cbaa 50%,
+     #65c9ac 55%,
+     #64c6af 60%,
+     #62c4b2 65%,
+     #61c2b4 70%,
+     #60c0b6 75%,
+     #5ebdb9 80%,
+     #5dbbbc 85%,
+     #5cb9be 90%,
+     #5ab6c0 95%,
+     #59b4c3 100%
+  );
+  height:100vh;
+  padding: 50px;
+
+}
+.container-bg{
+  background-image: -webkit-linear-gradient(5deg,
+     #74e291 0%,
+     #73e094 5%,
+     #71dd96 10%,
+     #70db98 15%,
+     #6fd99b 20%,
+     #6dd69e 25%,
+     #6cd4a0 30%,
+     #6bd2a2 35%,
+     #69d0a5 40%,
+     #68cda8 45%,
+     #66cbaa 50%,
+     #65c9ac 55%,
+     #64c6af 60%,
+     #62c4b2 65%,
+     #61c2b4 70%,
+     #60c0b6 75%,
+     #5ebdb9 80%,
+     #5dbbbc 85%,
+     #5cb9be 90%,
+     #5ab6c0 95%,
+     #59b4c3 100%
+  );
+  height:100vh;
+
+}
+.returns{
+  background-image: -webkit-linear-gradient(5deg,
+     #74e291 0%,
+     #73e094 5%,
+     #71dd96 10%,
+     #70db98 15%,
+     #6fd99b 20%,
+     #6dd69e 25%,
+     #6cd4a0 30%,
+     #6bd2a2 35%,
+     #69d0a5 40%,
+     #68cda8 45%,
+     #66cbaa 50%,
+     #65c9ac 55%,
+     #64c6af 60%,
+     #62c4b2 65%,
+     #61c2b4 70%,
+     #60c0b6 75%,
+     #5ebdb9 80%,
+     #5dbbbc 85%,
+     #5cb9be 90%,
+     #5ab6c0 95%,
+     #59b4c3 100%
+  );
+  height:100vh;
+  padding: 50px;
+  font-size: 2rem;
+  text-decoration: None;
+
+}
+
+.card-body{
+  background-image: linear-gradient(90deg,
+    #666666 0%,
+    #595959 17%,
+    #4d4d4d 33%,
+    #404040 50%,
+    #333333 67%,
+    #262626 100%
+  );
+  border-radius: 5px;
+  border-color: black;
+  font-family:sans-serif;
+}
+
+
+
+
+ @media screen and (max-width:1424px) {
+   .description-text{
+     font-size: 7rem;
+   }
+   .description{
+     height:800px;
+   }
+   .contactus{
+     height:1100px;
+   }
+   .contactus p{
+     font-size: 9rem;
+   }
+ }
+
+ @media screen and (max-width:1024px) {
+   .description-text{
+     font-size: 5rem;
+   }
+   .description{
+     height:600px;
+   }
+   .project-class p{
+     font-size: 4rem;
+   }
+   .contactus{
+     height:1000px;
+   }
+   .contactus p{
+     font-size: 7rem;
+   }
+ }
+
+
+ @media screen and (max-width: 668px){
+  .description-text{
+    font-size: 3.5rem;
+  }
+  .description{
+    height:400px;
+  }
+  .project-class p{
+    font-size: 3rem;
+  }
+ }
+
+ @media screen and (max-width:480px) {
+
+   .description-text{
+     font-size: 2rem;
+   }
+   .description{
+     height:300px;
+   }
+ }
+
+
+
+
+
+</style>
